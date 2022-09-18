@@ -27,7 +27,7 @@ public class Main {
 
             postgresConnection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/GB", "postgres", "123");
             if (!postgresConnection.equals(null))
-            {System.out.println("Connet ON");}
+            {System.out.println("Connet ON - 1");}
             else {
                 System.out.println("Connect OFF");
             };
