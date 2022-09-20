@@ -16,7 +16,9 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-                    </dependency>
+            <version>42.5.0</version>
+        </dependency>
     </dependencies>
+
 </project>
 
